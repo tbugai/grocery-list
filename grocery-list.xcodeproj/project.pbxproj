@@ -298,6 +298,8 @@
 		7079A22617237A6100F07287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grocery-list/grocery-list-Prefix.pch";
 				INFOPLIST_FILE = "grocery-list/grocery-list-Info.plist";
@@ -310,6 +312,8 @@
 		7079A22717237A6100F07287 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grocery-list/grocery-list-Prefix.pch";
 				INFOPLIST_FILE = "grocery-list/grocery-list-Info.plist";
