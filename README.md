@@ -9,7 +9,7 @@ Make sure you have the latest XCode installed.
 
 Clone the repository to your machien
 
-    git clone http://github.com/tbugai/grocery-list.git
+    git clone https://github.com/tbugai/grocery-list.git
 
 Run bundler in the working directory
 
