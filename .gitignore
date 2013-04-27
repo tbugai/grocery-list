@@ -1,0 +1,4 @@
+integration/tmp
+integration/github
+build/
+*.xcworkspace
