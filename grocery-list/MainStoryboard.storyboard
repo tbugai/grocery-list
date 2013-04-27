@@ -52,6 +52,9 @@
                             <constraint firstItem="QzU-Aq-PtF" firstAttribute="bottom" secondItem="PXg-Ev-T68" secondAttribute="bottom" type="default" id="Wiy-qk-ZfX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="groceryList" destination="QzU-Aq-PtF" id="mVe-e8-evz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebK-bO-WHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,6 +70,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1w-ic-qXe">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="NewItem"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="555" id="Akj-eg-OAu"/>
                                     <constraint firstAttribute="height" constant="133" id="B0b-9c-JtQ"/>
