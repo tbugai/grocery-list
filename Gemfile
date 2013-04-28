@@ -1,4 +1,4 @@
 source :rubygems
 
 gem 'xcodebuild-rb'
-gem 'bwoken'
+gem 'bwoken', :github => "tcoulter/bwoken", :branch => "better-pty"

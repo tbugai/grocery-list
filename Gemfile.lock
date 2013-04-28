@@ -1,11 +1,17 @@
-GEM
-  remote: http://rubygems.org/
+GIT
+  remote: git://github.com/tcoulter/bwoken.git
+  revision: 0475e747ed4ba76ce353373ed0ec2258dd73c7d1
+  branch: better-pty
   specs:
     bwoken (1.3.0)
       coffee-script-source
       colorful
       execjs
       rake
+
+GEM
+  remote: http://rubygems.org/
+  specs:
     coffee-script-source (1.6.2)
     colorful (0.0.3)
     execjs (1.4.0)
@@ -20,5 +26,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bwoken
+  bwoken!
   xcodebuild-rb
