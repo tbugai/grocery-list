@@ -84,7 +84,7 @@
 #pragma mark AddItem Delegate
 
 - (void)itemAddeded:(Item *)item {
-	[list addObject:item];
+	//[list addObject:item];
 	[groceryList reloadData];
 }
 @end
