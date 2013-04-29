@@ -81,6 +81,17 @@
 	cell.imageView.hidden = !thisItem.acquired;
 }
 
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+	return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+	if (editingStyle == UITableViewCellEditingStyleDelete) {
+		[list removeObjectAtIndex:indexPath.row];
+		[groceryList reloadData];
+	}
+}
+
 #pragma mark AddItem Delegate
 
 - (void)itemAddeded:(Item *)item {
